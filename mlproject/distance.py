@@ -1,5 +1,9 @@
 from math import radians, cos, sin, asin, sqrt
 
+"""
+This module contains formulae related to estimating distance between two coordinates
+"""
+
 def haversine(lon1, lat1, lon2, lat2):
     """
     Calculate the great circle distance between two points
